@@ -9,4 +9,3 @@ D:\A_Jerry\GitHub\FinalProject_17521061\obj\Debug\FinalProject_17521061.csproj.C
 D:\A_Jerry\GitHub\FinalProject_17521061\obj\Debug\FinalProject_17521061.exe
 D:\A_Jerry\GitHub\FinalProject_17521061\obj\Debug\FinalProject_17521061.pdb
 D:\A_Jerry\GitHub\FinalProject_17521061\obj\Debug\FinalProject_17521061.Form1.resources
-D:\A_Jerry\GitHub\FinalProject_17521061\obj\Debug\FinalProject_17521061.UC_DichVuDropdownMenu.resources

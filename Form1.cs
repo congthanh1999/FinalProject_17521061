@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,14 +18,29 @@ namespace FinalProject_17521061
             InitializeComponent();
         }
 
-        private void uC_DichVuDropdownMenu1_Load(object sender, EventArgs e)
+        private void btn_VeChungToi_MouseHover(object sender, EventArgs e)
         {
-
+            this.pnl_VeChungToiMenu.Height = 144;
+            timer_VeChungToi.Start();
         }
 
-        private void uC_DichVuDropdownMenu1_UC_DichVuDropdownMenu_MouseLeave(object sender, EventArgs e)
+        private void btn_VeChungToi_MouseLeave(object sender, EventArgs e)
         {
-            if(this.H)
+            this.pnl_VeChungToiMenu.Height = 64;
+            timer_VeChungToi.Stop();
+        }
+
+        private void timer_VeChungToi_Tick(object sender, EventArgs e)
+        {
+            if(this.pnl_VeChungToiMenu.Height > 144)
+            {
+                timer_VeChungToi.Stop();
+            }
+            else
+            {
+                this.pnl_VeChungToiMenu.Height = 144;
+                this.pnl_VeChungToiMenu.Height += 5;
+            }
         }
     }
 }

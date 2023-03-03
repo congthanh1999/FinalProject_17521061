@@ -13,6 +13,8 @@ namespace FinalProject_17521061
 {
     public partial class Form1 : Form
     {
+        private bool isCollapsed;
+
         public Form1()
         {
             InitializeComponent();
@@ -20,27 +22,68 @@ namespace FinalProject_17521061
 
         private void btn_VeChungToi_MouseHover(object sender, EventArgs e)
         {
-            this.pnl_VeChungToiMenu.Height = 144;
             timer_VeChungToi.Start();
         }
 
         private void btn_VeChungToi_MouseLeave(object sender, EventArgs e)
         {
-            this.pnl_VeChungToiMenu.Height = 64;
-            timer_VeChungToi.Stop();
+            this.pnl_VeChungToi.Size = this.pnl_VeChungToi.MinimumSize;
         }
 
-        private void timer_VeChungToi_Tick(object sender, EventArgs e)
+        private void btn_DichVu_MouseHover(object sender, EventArgs e)
         {
-            if(this.pnl_VeChungToiMenu.Height > 144)
+            timer_DichVu.Start();
+        }
+
+        private void btn_DichVu_MouseLeave(object sender, EventArgs e)
+        {
+            this.pnl_DichVu.Size = this.pnl_DichVu.MinimumSize;
+        }
+
+        private void timer_Dropdown_Tick(object sender, EventArgs e)
+        {
+            if (isCollapsed)
             {
-                timer_VeChungToi.Stop();
+                this.pnl_VeChungToi.Height += 20;
+                if (this.pnl_VeChungToi.Size == this.pnl_VeChungToi.MaximumSize)
+                {
+                    timer_VeChungToi.Stop();
+                    isCollapsed = false;
+                }
             }
             else
             {
-                this.pnl_VeChungToiMenu.Height = 144;
-                this.pnl_VeChungToiMenu.Height += 5;
+                this.pnl_VeChungToi.Height -= 20;
+                if (this.pnl_VeChungToi.Size == this.pnl_VeChungToi.MinimumSize)
+                {
+                    timer_VeChungToi.Stop();
+                    isCollapsed = true;
+                }
             }
         }
+
+        private void time_DichVu_Tick(object sender, EventArgs e)
+        {
+            if (isCollapsed)
+            {
+                this.pnl_DichVu.Height += 20;
+                if (this.pnl_DichVu.Size == this.pnl_DichVu.MaximumSize)
+                {
+                    timer_DichVu.Stop();
+                    isCollapsed = false;
+                }
+            }
+            else
+            {
+                this.pnl_DichVu.Height -= 20;
+                if (this.pnl_DichVu.Size == this.pnl_DichVu.MinimumSize)
+                {
+                    timer_DichVu.Stop();
+                    isCollapsed = true;
+                }
+            }
+        }
+
+
     }
 }

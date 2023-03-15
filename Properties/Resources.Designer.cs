@@ -63,6 +63,116 @@ namespace FinalProject_17521061.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _172517_phone_icon {
+            get {
+                object obj = ResourceManager.GetObject("172517_phone_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _20171012132316_ve_sinh_tu_lanh {
+            get {
+                object obj = ResourceManager.GetObject("20171012132316-ve-sinh-tu-lanh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _20200522_154627_093429_nhung_loi_ich_cua_vie_max_800x800 {
+            get {
+                object obj = ResourceManager.GetObject("20200522_154627_093429_nhung-loi-ich-cua-vie.max-800x800", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _211651_close_round_icon {
+            get {
+                object obj = ResourceManager.GetObject("211651_close_round_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _211660_email_icon {
+            get {
+                object obj = ResourceManager.GetObject("211660_email_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _211689_left_arrow_icon {
+            get {
+                object obj = ResourceManager.GetObject("211689_left_arrow_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _211689_right_arrow_icon {
+            get {
+                object obj = ResourceManager.GetObject("211689_right_arrow_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4104737_chatbot_customer_e_wallet_live_chat_service_icon {
+            get {
+                object obj = ResourceManager.GetObject("4104737_chatbot_customer_e-wallet_live chat_service_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6457546_history_order_page_time_track_icon {
+            get {
+                object obj = ResourceManager.GetObject("6457546_history_order_page_time_track_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8687639_ic_fluent_send_regular_icon {
+            get {
+                object obj = ResourceManager.GetObject("8687639_ic_fluent_send_regular_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cach_lau_san_sach_se_696x372 {
+            get {
+                object obj = ResourceManager.GetObject("cach-lau-san-sach-se-696x372", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Capture {
             get {
                 object obj = ResourceManager.GetObject("Capture", resourceCulture);
@@ -73,9 +183,309 @@ namespace FinalProject_17521061.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dang_cong_viec {
+            get {
+                object obj = ResourceManager.GetObject("dang-cong-viec", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap goi_y_cong_tac_vien {
+            get {
+                object obj = ResourceManager.GetObject("goi-y-cong-tac-vien", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hoan_thanh {
+            get {
+                object obj = ResourceManager.GetObject("hoan-thanh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap housekeeping {
             get {
                 object obj = ResourceManager.GetObject("housekeeping", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HOW_TO_WASH_CLOTES_How_to_do_Laundry_570x310 {
+            get {
+                object obj = ResourceManager.GetObject("HOW_TO_WASH_CLOTES_How_to_do_Laundry_570x310", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Kitchen_Design_retro_luxury_brass_island_bench_18_846x563 {
+            get {
+                object obj = ResourceManager.GetObject("Kitchen-Design-retro-luxury-brass-island-bench-18-846x563", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap m1_1629191751714293371324 {
+            get {
+                object obj = ResourceManager.GetObject("m1-1629191751714293371324", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap master_bathroom_design_ideas_4129362_hero_d896a889451341dfaa59c5b2beacf02d {
+            get {
+                object obj = ResourceManager.GetObject("master-bathroom-design-ideas-4129362-hero-d896a889451341dfaa59c5b2beacf02d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_Black {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_Black", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_BlackItalic {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_BlackItalic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_Bold {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_Bold", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_BoldItalic {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_BoldItalic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_ExtraBold {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_ExtraBold", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_ExtraBoldItalic {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_ExtraBoldItalic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_ExtraLight {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_ExtraLight", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_ExtraLightItalic {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_ExtraLightItalic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_Italic {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_Italic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_Italic_VariableFont_wght {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_Italic_VariableFont_wght", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_Light {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_Light", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_LightItalic {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_LightItalic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_Medium {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_Medium", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_MediumItalic {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_MediumItalic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_Regular {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_Regular", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_SemiBold {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_SemiBold", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_SemiBoldItalic {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_SemiBoldItalic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_Thin {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_Thin", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_ThinItalic {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_ThinItalic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Montserrat_VariableFont_wght {
+            get {
+                object obj = ResourceManager.GetObject("Montserrat_VariableFont_wght", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nguoi_giup_viec_1 {
+            get {
+                object obj = ResourceManager.GetObject("nguoi-giup-viec-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap phòng_ngủ_đẹp_cho_nữ_1 {
+            get {
+                object obj = ResourceManager.GetObject("phòng-ngủ-đẹp-cho-nữ-1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -471,6 +471,8 @@
     <None Include="bin\Debug\image\goi-y-cong-tac-vien.PNG" />
     <None Include="bin\Debug\image\hoan-thanh.PNG" />
     <None Include="bin\Debug\image\6457546_history_order_page_time_track_icon.png" />
+    <None Include="bin\Debug\image\background.jpg" />
+    <None Include="bin\Debug\image\8324223_ui_essential_app_avatar_profile_icon.png" />
     <Content Include="img\5.png" />
     <None Include="bin\Debug\image\211660_email_icon.ico" />
     <None Include="bin\Debug\image\172517_phone_icon.ico" />

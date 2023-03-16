@@ -10,7 +10,7 @@ namespace FinalProject_17521061.Classes
 {
     internal class LichSuGD
     {
-        private int maGD;
+        private string maGD;
         private string tenDV;
         private string DVVeSinh;
         private string DVNauAn;
@@ -23,7 +23,7 @@ namespace FinalProject_17521061.Classes
 
         public LichSuGD() { }
 
-        public LichSuGD(int maGD, string tenDV, string dVVeSinh, string dVNauAn, string dVGiatUi, string diaChi, string ngayDat, string thoiGian, int thanhTien, int danhGia)
+        public LichSuGD(string maGD, string tenDV, string dVVeSinh, string dVNauAn, string dVGiatUi, string diaChi, string ngayDat, string thoiGian, int thanhTien, int danhGia)
         {
             this.maGD = maGD;
             this.tenDV = tenDV;
@@ -37,7 +37,7 @@ namespace FinalProject_17521061.Classes
             this.danhGia = danhGia;
         }
 
-        public int MaGD { get => maGD; set => maGD = value; }
+        public string MaGD { get => maGD; set => maGD = value; }
         public string TenDV { get => tenDV; set => tenDV = value; }
         public string DVVeSinh1 { get => DVVeSinh; set => DVVeSinh = value; }
         public string DVNauAn1 { get => DVNauAn; set => DVNauAn = value; }
@@ -62,7 +62,7 @@ namespace FinalProject_17521061.Classes
 
                 while (dt.Read())
                 {
-                    LichSuGD ls = new LichSuGD(Int32.Parse(dt[0].ToString()),dt[2].ToString(), dt[3].ToString(), dt[4].ToString(), dt[5].ToString(), dt[6].ToString(), dt[7].ToString(), dt[8].ToString(), Int32.Parse(dt[9].ToString()), Int32.Parse(dt[10].ToString()));
+                    LichSuGD ls = new LichSuGD(dt[0].ToString(),dt[2].ToString(), dt[3].ToString(), dt[4].ToString(), dt[5].ToString(), dt[6].ToString(), dt[7].ToString(), dt[8].ToString(), Int32.Parse(dt[9].ToString()), Int32.Parse(dt[10].ToString()));
                     list.Add(ls);
                 }
             }

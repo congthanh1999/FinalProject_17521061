@@ -32,9 +32,9 @@
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnl_Carousel = new System.Windows.Forms.Panel();
-            this.uC_Carousel1 = new FinalProject_17521061.UC_Carousel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_SuDungDV = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.uC_Carousel1 = new FinalProject_17521061.UC_Carousel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnl_Carousel.SuspendLayout();
             this.SuspendLayout();
@@ -45,7 +45,7 @@
             this.pictureBox2.Image = global::FinalProject_17521061.Properties.Resources.Capture;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1454, 483);
+            this.pictureBox2.Size = new System.Drawing.Size(1643, 483);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
@@ -56,23 +56,15 @@
             this.pnl_Carousel.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnl_Carousel.Location = new System.Drawing.Point(0, 583);
             this.pnl_Carousel.Name = "pnl_Carousel";
-            this.pnl_Carousel.Size = new System.Drawing.Size(1454, 475);
+            this.pnl_Carousel.Size = new System.Drawing.Size(1643, 475);
             this.pnl_Carousel.TabIndex = 1;
-            // 
-            // uC_Carousel1
-            // 
-            this.uC_Carousel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.uC_Carousel1.Location = new System.Drawing.Point(279, 0);
-            this.uC_Carousel1.Name = "uC_Carousel1";
-            this.uC_Carousel1.Size = new System.Drawing.Size(876, 473);
-            this.uC_Carousel1.TabIndex = 10;
             // 
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 483);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1454, 100);
+            this.panel1.Size = new System.Drawing.Size(1643, 100);
             this.panel1.TabIndex = 11;
             // 
             // btn_SuDungDV
@@ -123,7 +115,7 @@
             this.btn_SuDungDV.IdleIconLeftImage = null;
             this.btn_SuDungDV.IdleIconRightImage = null;
             this.btn_SuDungDV.IndicateFocus = false;
-            this.btn_SuDungDV.Location = new System.Drawing.Point(1139, 12);
+            this.btn_SuDungDV.Location = new System.Drawing.Point(1076, 12);
             this.btn_SuDungDV.Name = "btn_SuDungDV";
             this.btn_SuDungDV.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btn_SuDungDV.OnDisabledState.BorderRadius = 30;
@@ -166,13 +158,21 @@
             this.btn_SuDungDV.UseDefaultRadiusAndThickness = true;
             this.btn_SuDungDV.Click += new System.EventHandler(this.btn_SuDungDV_Click);
             // 
+            // uC_Carousel1
+            // 
+            this.uC_Carousel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.uC_Carousel1.Location = new System.Drawing.Point(373, 0);
+            this.uC_Carousel1.Name = "uC_Carousel1";
+            this.uC_Carousel1.Size = new System.Drawing.Size(876, 473);
+            this.uC_Carousel1.TabIndex = 10;
+            // 
             // Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1475, 1055);
+            this.ClientSize = new System.Drawing.Size(1664, 1055);
             this.Controls.Add(this.btn_SuDungDV);
             this.Controls.Add(this.pnl_Carousel);
             this.Controls.Add(this.panel1);

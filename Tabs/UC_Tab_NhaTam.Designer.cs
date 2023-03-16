@@ -63,10 +63,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(6, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(349, 92);
+            this.label2.Size = new System.Drawing.Size(365, 88);
             this.label2.TabIndex = 1;
             this.label2.Text = "◆ Làm sạch toilet\r\n◆ Lau chùi sạch vòi sen, bồn tắm và bồn rửa\r\n◆ Làm sạch bên ng" +
     "oài tủ, gương và đồ đạc\r\n◆ Lau công tắc và tay cầm";
@@ -74,10 +74,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Nirmala UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 38);
+            this.label1.Size = new System.Drawing.Size(152, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nhà tắm";
             // 

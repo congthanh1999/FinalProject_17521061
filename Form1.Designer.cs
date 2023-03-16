@@ -91,6 +91,7 @@ namespace FinalProject_17521061
             // lbl_Username
             // 
             this.lbl_Username.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lbl_Username.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Username.Location = new System.Drawing.Point(0, 0);
             this.lbl_Username.Name = "lbl_Username";
             this.lbl_Username.Size = new System.Drawing.Size(300, 68);
@@ -105,6 +106,7 @@ namespace FinalProject_17521061
             this.btn_DangKy.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_DangKy.FlatAppearance.BorderSize = 0;
             this.btn_DangKy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DangKy.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_DangKy.Location = new System.Drawing.Point(916, 4);
             this.btn_DangKy.Name = "btn_DangKy";
             this.btn_DangKy.Size = new System.Drawing.Size(150, 68);
@@ -119,6 +121,7 @@ namespace FinalProject_17521061
             this.btn_DangNhap.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_DangNhap.FlatAppearance.BorderSize = 0;
             this.btn_DangNhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_DangNhap.Location = new System.Drawing.Point(1072, 4);
             this.btn_DangNhap.Name = "btn_DangNhap";
             this.btn_DangNhap.Size = new System.Drawing.Size(150, 68);
@@ -146,6 +149,7 @@ namespace FinalProject_17521061
             this.btn_DichVu.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_DichVu.FlatAppearance.BorderSize = 0;
             this.btn_DichVu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DichVu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_DichVu.Location = new System.Drawing.Point(0, 0);
             this.btn_DichVu.Margin = new System.Windows.Forms.Padding(4);
             this.btn_DichVu.Name = "btn_DichVu";
@@ -174,6 +178,7 @@ namespace FinalProject_17521061
             this.btn_VeChungToi.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_VeChungToi.FlatAppearance.BorderSize = 0;
             this.btn_VeChungToi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_VeChungToi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_VeChungToi.Location = new System.Drawing.Point(0, 0);
             this.btn_VeChungToi.Margin = new System.Windows.Forms.Padding(4);
             this.btn_VeChungToi.Name = "btn_VeChungToi";
@@ -235,6 +240,8 @@ namespace FinalProject_17521061
             this.btn_NoiTro.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_NoiTro.FlatAppearance.BorderSize = 0;
             this.btn_NoiTro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_NoiTro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_NoiTro.ForeColor = System.Drawing.Color.White;
             this.btn_NoiTro.Location = new System.Drawing.Point(0, 160);
             this.btn_NoiTro.Margin = new System.Windows.Forms.Padding(4);
             this.btn_NoiTro.Name = "btn_NoiTro";
@@ -250,6 +257,8 @@ namespace FinalProject_17521061
             this.btn_NauAn.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_NauAn.FlatAppearance.BorderSize = 0;
             this.btn_NauAn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_NauAn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_NauAn.ForeColor = System.Drawing.Color.White;
             this.btn_NauAn.Location = new System.Drawing.Point(0, 120);
             this.btn_NauAn.Margin = new System.Windows.Forms.Padding(4);
             this.btn_NauAn.Name = "btn_NauAn";
@@ -265,6 +274,8 @@ namespace FinalProject_17521061
             this.btn_GiatUi.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_GiatUi.FlatAppearance.BorderSize = 0;
             this.btn_GiatUi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_GiatUi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_GiatUi.ForeColor = System.Drawing.Color.White;
             this.btn_GiatUi.Location = new System.Drawing.Point(0, 80);
             this.btn_GiatUi.Margin = new System.Windows.Forms.Padding(4);
             this.btn_GiatUi.Name = "btn_GiatUi";
@@ -280,6 +291,8 @@ namespace FinalProject_17521061
             this.btn_DiCho.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_DiCho.FlatAppearance.BorderSize = 0;
             this.btn_DiCho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DiCho.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_DiCho.ForeColor = System.Drawing.Color.White;
             this.btn_DiCho.Location = new System.Drawing.Point(0, 40);
             this.btn_DiCho.Margin = new System.Windows.Forms.Padding(4);
             this.btn_DiCho.Name = "btn_DiCho";
@@ -295,6 +308,8 @@ namespace FinalProject_17521061
             this.btn_LauNha.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_LauNha.FlatAppearance.BorderSize = 0;
             this.btn_LauNha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_LauNha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_LauNha.ForeColor = System.Drawing.Color.White;
             this.btn_LauNha.Location = new System.Drawing.Point(0, 0);
             this.btn_LauNha.Margin = new System.Windows.Forms.Padding(4);
             this.btn_LauNha.Name = "btn_LauNha";
@@ -321,6 +336,8 @@ namespace FinalProject_17521061
             this.btn_LienHe.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_LienHe.FlatAppearance.BorderSize = 0;
             this.btn_LienHe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_LienHe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_LienHe.ForeColor = System.Drawing.Color.White;
             this.btn_LienHe.Location = new System.Drawing.Point(0, 40);
             this.btn_LienHe.Margin = new System.Windows.Forms.Padding(4);
             this.btn_LienHe.Name = "btn_LienHe";
@@ -336,6 +353,8 @@ namespace FinalProject_17521061
             this.btn_PhanMem.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_PhanMem.FlatAppearance.BorderSize = 0;
             this.btn_PhanMem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_PhanMem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_PhanMem.ForeColor = System.Drawing.Color.White;
             this.btn_PhanMem.Location = new System.Drawing.Point(0, 0);
             this.btn_PhanMem.Margin = new System.Windows.Forms.Padding(4);
             this.btn_PhanMem.Name = "btn_PhanMem";

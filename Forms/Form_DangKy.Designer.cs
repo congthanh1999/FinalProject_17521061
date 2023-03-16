@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_DangKy));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txt_DiaChi = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.txt_NhapLaiMatKhau = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btn_DangNhap = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
@@ -43,8 +45,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_DangNhap = new System.Windows.Forms.Label();
-            this.txt_DiaChi = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,32 +67,57 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.lbl_DangNhap);
             this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(130)))), ((int)(((byte)(40)))));
-            this.panel1.Location = new System.Drawing.Point(168, 27);
+            this.panel1.Location = new System.Drawing.Point(57, 23);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(854, 574);
+            this.panel1.Size = new System.Drawing.Size(590, 507);
             this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // txt_DiaChi
+            // 
+            this.txt_DiaChi.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_DiaChi.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_DiaChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_DiaChi.Location = new System.Drawing.Point(340, 195);
+            this.txt_DiaChi.Margin = new System.Windows.Forms.Padding(20);
+            this.txt_DiaChi.Name = "txt_DiaChi";
+            this.txt_DiaChi.Size = new System.Drawing.Size(210, 31);
+            this.txt_DiaChi.TabIndex = 15;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(335, 161);
+            this.label4.Margin = new System.Windows.Forms.Padding(20);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(71, 25);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Địa chỉ";
             // 
             // txt_NhapLaiMatKhau
             // 
             this.txt_NhapLaiMatKhau.BackColor = System.Drawing.SystemColors.Window;
             this.txt_NhapLaiMatKhau.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_NhapLaiMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_NhapLaiMatKhau.Location = new System.Drawing.Point(205, 443);
-            this.txt_NhapLaiMatKhau.Margin = new System.Windows.Forms.Padding(40);
+            this.txt_NhapLaiMatKhau.Location = new System.Drawing.Point(47, 376);
+            this.txt_NhapLaiMatKhau.Margin = new System.Windows.Forms.Padding(20);
             this.txt_NhapLaiMatKhau.Name = "txt_NhapLaiMatKhau";
             this.txt_NhapLaiMatKhau.Size = new System.Drawing.Size(210, 31);
             this.txt_NhapLaiMatKhau.TabIndex = 13;
+            this.txt_NhapLaiMatKhau.TextChanged += new System.EventHandler(this.txt_NhapLaiMatKhau_TextChanged);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(201, 402);
-            this.label6.Margin = new System.Windows.Forms.Padding(40);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(48, 346);
+            this.label6.Margin = new System.Windows.Forms.Padding(20);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(151, 23);
+            this.label6.Size = new System.Drawing.Size(168, 25);
             this.label6.TabIndex = 12;
             this.label6.Text = "Nhập lại mật khẩu";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // btn_DangNhap
             // 
@@ -141,7 +166,7 @@
             this.btn_DangNhap.IdleIconLeftImage = null;
             this.btn_DangNhap.IdleIconRightImage = null;
             this.btn_DangNhap.IndicateFocus = false;
-            this.btn_DangNhap.Location = new System.Drawing.Point(344, 517);
+            this.btn_DangNhap.Location = new System.Drawing.Point(207, 445);
             this.btn_DangNhap.Name = "btn_DangNhap";
             this.btn_DangNhap.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btn_DangNhap.OnDisabledState.BorderRadius = 30;
@@ -189,8 +214,8 @@
             this.txt_SDT.BackColor = System.Drawing.SystemColors.Window;
             this.txt_SDT.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_SDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SDT.Location = new System.Drawing.Point(495, 142);
-            this.txt_SDT.Margin = new System.Windows.Forms.Padding(40);
+            this.txt_SDT.Location = new System.Drawing.Point(340, 110);
+            this.txt_SDT.Margin = new System.Windows.Forms.Padding(20);
             this.txt_SDT.Name = "txt_SDT";
             this.txt_SDT.Size = new System.Drawing.Size(210, 31);
             this.txt_SDT.TabIndex = 10;
@@ -198,11 +223,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(494, 116);
-            this.label5.Margin = new System.Windows.Forms.Padding(40);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(335, 76);
+            this.label5.Margin = new System.Windows.Forms.Padding(20);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 23);
+            this.label5.Size = new System.Drawing.Size(53, 25);
             this.label5.TabIndex = 9;
             this.label5.Text = "SĐT";
             // 
@@ -211,8 +236,8 @@
             this.txt_HoTen.BackColor = System.Drawing.SystemColors.Window;
             this.txt_HoTen.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_HoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HoTen.Location = new System.Drawing.Point(205, 142);
-            this.txt_HoTen.Margin = new System.Windows.Forms.Padding(40);
+            this.txt_HoTen.Location = new System.Drawing.Point(47, 110);
+            this.txt_HoTen.Margin = new System.Windows.Forms.Padding(20);
             this.txt_HoTen.Name = "txt_HoTen";
             this.txt_HoTen.Size = new System.Drawing.Size(210, 31);
             this.txt_HoTen.TabIndex = 6;
@@ -220,11 +245,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(205, 116);
-            this.label3.Margin = new System.Windows.Forms.Padding(40);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(49, 76);
+            this.label3.Margin = new System.Windows.Forms.Padding(20);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 23);
+            this.label3.Size = new System.Drawing.Size(95, 25);
             this.label3.TabIndex = 5;
             this.label3.Text = "Họ và tên";
             // 
@@ -233,8 +258,8 @@
             this.txt_MatKhau.BackColor = System.Drawing.SystemColors.Window;
             this.txt_MatKhau.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_MatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MatKhau.Location = new System.Drawing.Point(205, 338);
-            this.txt_MatKhau.Margin = new System.Windows.Forms.Padding(40);
+            this.txt_MatKhau.Location = new System.Drawing.Point(47, 285);
+            this.txt_MatKhau.Margin = new System.Windows.Forms.Padding(20);
             this.txt_MatKhau.Name = "txt_MatKhau";
             this.txt_MatKhau.Size = new System.Drawing.Size(210, 31);
             this.txt_MatKhau.TabIndex = 4;
@@ -244,8 +269,8 @@
             this.txt_Email.BackColor = System.Drawing.SystemColors.Window;
             this.txt_Email.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Email.Location = new System.Drawing.Point(205, 243);
-            this.txt_Email.Margin = new System.Windows.Forms.Padding(40);
+            this.txt_Email.Location = new System.Drawing.Point(47, 195);
+            this.txt_Email.Margin = new System.Windows.Forms.Padding(20);
             this.txt_Email.Name = "txt_Email";
             this.txt_Email.Size = new System.Drawing.Size(210, 31);
             this.txt_Email.TabIndex = 3;
@@ -253,63 +278,42 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(201, 309);
-            this.label2.Margin = new System.Windows.Forms.Padding(40);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(48, 252);
+            this.label2.Margin = new System.Windows.Forms.Padding(20);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 23);
+            this.label2.Size = new System.Drawing.Size(93, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Mật khẩu";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(205, 213);
-            this.label1.Margin = new System.Windows.Forms.Padding(40);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(47, 161);
+            this.label1.Margin = new System.Windows.Forms.Padding(20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 23);
+            this.label1.Size = new System.Drawing.Size(60, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Email";
             // 
             // lbl_DangNhap
             // 
             this.lbl_DangNhap.AutoSize = true;
-            this.lbl_DangNhap.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_DangNhap.Location = new System.Drawing.Point(3, 0);
+            this.lbl_DangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_DangNhap.Location = new System.Drawing.Point(40, 0);
             this.lbl_DangNhap.Name = "lbl_DangNhap";
-            this.lbl_DangNhap.Size = new System.Drawing.Size(93, 28);
+            this.lbl_DangNhap.Size = new System.Drawing.Size(145, 38);
             this.lbl_DangNhap.TabIndex = 0;
             this.lbl_DangNhap.Text = "Đăng ký";
-            // 
-            // txt_DiaChi
-            // 
-            this.txt_DiaChi.BackColor = System.Drawing.SystemColors.Window;
-            this.txt_DiaChi.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_DiaChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_DiaChi.Location = new System.Drawing.Point(498, 243);
-            this.txt_DiaChi.Margin = new System.Windows.Forms.Padding(40);
-            this.txt_DiaChi.Name = "txt_DiaChi";
-            this.txt_DiaChi.Size = new System.Drawing.Size(210, 31);
-            this.txt_DiaChi.TabIndex = 15;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(497, 217);
-            this.label4.Margin = new System.Windows.Forms.Padding(40);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 23);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "Địa chỉ";
             // 
             // Form_DangKy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1191, 713);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(696, 551);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Symbol", 8.25F);
             this.Name = "Form_DangKy";

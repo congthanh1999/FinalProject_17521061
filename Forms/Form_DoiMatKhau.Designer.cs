@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_DoiMatKhau));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.panel1 = new System.Windows.Forms.Panel();
             this.e = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.txt_XacNhan = new System.Windows.Forms.TextBox();
@@ -55,9 +55,9 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.lbl_DangNhap);
             this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(130)))), ((int)(((byte)(40)))));
-            this.panel1.Location = new System.Drawing.Point(168, 27);
+            this.panel1.Location = new System.Drawing.Point(60, 49);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(854, 574);
+            this.panel1.Size = new System.Drawing.Size(501, 443);
             this.panel1.TabIndex = 1;
             // 
             // e
@@ -79,17 +79,17 @@
             this.e.ColorContrastOnClick = 45;
             this.e.ColorContrastOnHover = 45;
             this.e.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.e.CustomizableEdges = borderEdges2;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.e.CustomizableEdges = borderEdges1;
             this.e.DialogResult = System.Windows.Forms.DialogResult.None;
             this.e.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.e.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.e.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.e.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.e.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.e.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e.ForeColor = System.Drawing.Color.White;
             this.e.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.e.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -107,7 +107,7 @@
             this.e.IdleIconLeftImage = null;
             this.e.IdleIconRightImage = null;
             this.e.IndicateFocus = false;
-            this.e.Location = new System.Drawing.Point(344, 517);
+            this.e.Location = new System.Drawing.Point(173, 387);
             this.e.Name = "e";
             this.e.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.e.OnDisabledState.BorderRadius = 30;
@@ -155,21 +155,22 @@
             this.txt_XacNhan.BackColor = System.Drawing.SystemColors.Window;
             this.txt_XacNhan.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_XacNhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_XacNhan.Location = new System.Drawing.Point(205, 354);
+            this.txt_XacNhan.Location = new System.Drawing.Point(149, 331);
             this.txt_XacNhan.Margin = new System.Windows.Forms.Padding(40);
+            this.txt_XacNhan.Multiline = true;
             this.txt_XacNhan.Name = "txt_XacNhan";
-            this.txt_XacNhan.Size = new System.Drawing.Size(210, 31);
+            this.txt_XacNhan.Size = new System.Drawing.Size(210, 30);
             this.txt_XacNhan.TabIndex = 10;
             this.txt_XacNhan.TextChanged += new System.EventHandler(this.txt_SDT_TextChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(204, 328);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(144, 305);
             this.label5.Margin = new System.Windows.Forms.Padding(40);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(191, 23);
+            this.label5.Size = new System.Drawing.Size(217, 25);
             this.label5.TabIndex = 9;
             this.label5.Text = "Xác nhận mật khẩu mới";
             // 
@@ -178,21 +179,22 @@
             this.txt_MatKhauCu.BackColor = System.Drawing.SystemColors.Window;
             this.txt_MatKhauCu.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_MatKhauCu.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MatKhauCu.Location = new System.Drawing.Point(205, 142);
+            this.txt_MatKhauCu.Location = new System.Drawing.Point(149, 129);
             this.txt_MatKhauCu.Margin = new System.Windows.Forms.Padding(40);
+            this.txt_MatKhauCu.Multiline = true;
             this.txt_MatKhauCu.Name = "txt_MatKhauCu";
-            this.txt_MatKhauCu.Size = new System.Drawing.Size(210, 31);
+            this.txt_MatKhauCu.Size = new System.Drawing.Size(210, 30);
             this.txt_MatKhauCu.TabIndex = 6;
             this.txt_MatKhauCu.TextChanged += new System.EventHandler(this.txt_HoTen_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(205, 116);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(144, 104);
             this.label3.Margin = new System.Windows.Forms.Padding(40);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(104, 23);
+            this.label3.Size = new System.Drawing.Size(119, 25);
             this.label3.TabIndex = 5;
             this.label3.Text = "Mật khẩu cũ";
             // 
@@ -201,39 +203,40 @@
             this.txt_MatKhauMoi.BackColor = System.Drawing.SystemColors.Window;
             this.txt_MatKhauMoi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_MatKhauMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MatKhauMoi.Location = new System.Drawing.Point(205, 243);
+            this.txt_MatKhauMoi.Location = new System.Drawing.Point(149, 230);
             this.txt_MatKhauMoi.Margin = new System.Windows.Forms.Padding(40);
+            this.txt_MatKhauMoi.Multiline = true;
             this.txt_MatKhauMoi.Name = "txt_MatKhauMoi";
-            this.txt_MatKhauMoi.Size = new System.Drawing.Size(210, 31);
+            this.txt_MatKhauMoi.Size = new System.Drawing.Size(210, 30);
             this.txt_MatKhauMoi.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(205, 213);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(144, 200);
             this.label1.Margin = new System.Windows.Forms.Padding(40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 23);
+            this.label1.Size = new System.Drawing.Size(129, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Mật khẩu mới";
             // 
             // lbl_DangNhap
             // 
             this.lbl_DangNhap.AutoSize = true;
-            this.lbl_DangNhap.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_DangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_DangNhap.Location = new System.Drawing.Point(3, 0);
             this.lbl_DangNhap.Name = "lbl_DangNhap";
-            this.lbl_DangNhap.Size = new System.Drawing.Size(104, 28);
+            this.lbl_DangNhap.Size = new System.Drawing.Size(229, 39);
             this.lbl_DangNhap.TabIndex = 0;
-            this.lbl_DangNhap.Text = "Thông tin";
+            this.lbl_DangNhap.Text = "Đổi mật khẩu";
             // 
             // Form_DoiMatKhau
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1191, 713);
+            this.ClientSize = new System.Drawing.Size(619, 536);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Symbol", 8.25F);
             this.Name = "Form_DoiMatKhau";

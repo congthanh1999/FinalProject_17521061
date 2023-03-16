@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FinalProject_17521061.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,7 @@ namespace FinalProject_17521061
             InitializeComponent();
         }
 
+        public string MaGD { get; set; }
         public string TenDV { get => lbl_TenDV.Text; set => lbl_TenDV.Text = value; }
         public string GoiDV { get => lbl_GoiDichVu.Text; set => lbl_GoiDichVu.Text = value; }
         public string DiaChi { get => lbl_DiaChi.Text; set => lbl_DiaChi.Text = value; }
@@ -31,16 +33,49 @@ namespace FinalProject_17521061
         private void rate_DanhGia_ValueChanged(object sender, Bunifu.UI.WinForms.BunifuRating.ValueChangedEventArgs e)
         {
             //MessageBox.Show(e.Value.ToString());
+            //MessageBox.Show(MaGD);
             try
             {
-                string querry = "UPDATE GIAODICH\nSET DANHGIA = '" + rate_DanhGia.Value + "'\nWHERE MAGD = ";
+                string querry = "UPDATE GIAODICH\nSET DANHGIA = @danhGia\nWHERE MAGD = '" + Int32.Parse(MaGD) + "'";
                 SqlCommand cmd = new SqlCommand(querry, conn);
+                cmd.Parameters.AddWithValue("@danhGia", rate_DanhGia.Value);
                 conn.Open();
+                int rows = cmd.ExecuteNonQuery();
             }
             finally
             {
                 conn.Close();
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lbl_GoiDichVu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_TenDV_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_Ngay_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_ThanhTien_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_ThoiGian_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

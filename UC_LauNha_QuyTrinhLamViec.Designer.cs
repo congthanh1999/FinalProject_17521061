@@ -104,20 +104,20 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(-3, 91);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(480, 23);
+            this.label5.Size = new System.Drawing.Size(457, 20);
             this.label5.TabIndex = 5;
             this.label5.Text = "Chọn người phù hợp cho nhiệm vụ của bạn và hoàn thành nó";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Nirmala UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(-3, 49);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(291, 32);
+            this.label6.Size = new System.Drawing.Size(286, 29);
             this.label6.TabIndex = 4;
             this.label6.Text = "Hoàn thành và xác nhận";
             // 
@@ -181,20 +181,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(-3, 91);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(515, 23);
+            this.label3.Size = new System.Drawing.Size(498, 20);
             this.label3.TabIndex = 3;
             this.label3.Text = "Nhận thông tin từ cộng tác viên đáng tin cậy và xem hồ sơ của họ.";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Nirmala UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(-3, 49);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(289, 32);
+            this.label4.Size = new System.Drawing.Size(290, 29);
             this.label4.TabIndex = 2;
             this.label4.Text = "Xem gợi ý cộng tác viên";
             // 
@@ -258,20 +258,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(-3, 91);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(327, 23);
+            this.label2.Size = new System.Drawing.Size(312, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Hãy cho chúng tôi biết những gì bạn cần.";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Nirmala UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(-3, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(296, 32);
+            this.label1.Size = new System.Drawing.Size(290, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Đăng công việc của bạn";
             // 

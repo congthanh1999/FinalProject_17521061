@@ -74,20 +74,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(27, 157);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(221, 31);
+            this.label3.Size = new System.Drawing.Size(234, 29);
             this.label3.TabIndex = 2;
             this.label3.Text = "140,000đ-150,000đ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(27, 51);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(27, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 31);
+            this.label2.Size = new System.Drawing.Size(84, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "2 món";
             // 
@@ -113,20 +113,20 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(27, 157);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(221, 31);
+            this.label4.Size = new System.Drawing.Size(234, 29);
             this.label4.TabIndex = 2;
             this.label4.Text = "175,000đ-188,000đ";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(27, 51);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(27, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 31);
+            this.label5.Size = new System.Drawing.Size(84, 29);
             this.label5.TabIndex = 1;
             this.label5.Text = "3 món";
             // 
@@ -144,10 +144,10 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(27, 51);
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(27, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(82, 31);
+            this.label14.Size = new System.Drawing.Size(84, 29);
             this.label14.TabIndex = 5;
             this.label14.Text = "5 món";
             // 
@@ -162,10 +162,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(27, 157);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(221, 31);
+            this.label7.Size = new System.Drawing.Size(234, 29);
             this.label7.TabIndex = 2;
             this.label7.Text = "245,000đ-263,000đ";
             // 
@@ -201,20 +201,20 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(27, 157);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(221, 31);
+            this.label17.Size = new System.Drawing.Size(234, 29);
             this.label17.TabIndex = 2;
             this.label17.Text = "210,000đ-225,000đ";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(27, 51);
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(27, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(82, 31);
+            this.label18.Size = new System.Drawing.Size(84, 29);
             this.label18.TabIndex = 1;
             this.label18.Text = "4 món";
             // 

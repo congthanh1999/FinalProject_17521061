@@ -20,10 +20,11 @@ namespace FinalProject_17521061.Forms
             InitializeComponent();
         }
 
-        public void addItem(string tenDV, string goiDV, string diaChi, int thanhTien, string ngay, string gio, int danhGia)
+        public void addItem(string maGD, string tenDV, string goiDV, string diaChi, int thanhTien, string ngay, string gio, int danhGia)
         {
             this.flowLayoutPanel1.Controls.Add(new UC_LichSuGD()
             {
+                MaGD = maGD,
                 TenDV = tenDV,
                 GoiDV = goiDV,
                 DiaChi = diaChi,
@@ -40,15 +41,15 @@ namespace FinalProject_17521061.Forms
             {
                 if (ls.TenDV == "Tổng vệ sinh")
                 {
-                    addItem(ls.TenDV, ls.DVVeSinh1, ls.DiaChi, ls.ThanhTien, ls.NgayDat, ls.ThoiGian, ls.DanhGia);
+                    addItem(ls.MaGD, ls.TenDV, ls.DVVeSinh1, ls.DiaChi, ls.ThanhTien, ls.NgayDat, ls.ThoiGian, ls.DanhGia);
                 }
                 else if (ls.TenDV == "Nấu ăn")
                 {
-                    addItem(ls.TenDV, ls.DVNauAn1, ls.DiaChi, ls.ThanhTien, ls.NgayDat, ls.ThoiGian, ls.DanhGia);
+                    addItem(ls.MaGD, ls.TenDV, ls.DVNauAn1, ls.DiaChi, ls.ThanhTien, ls.NgayDat, ls.ThoiGian, ls.DanhGia);
                 }
                 else
                 {
-                    addItem(ls.TenDV, ls.DVGiatUi1, ls.DiaChi, ls.ThanhTien, ls.NgayDat, ls.ThoiGian, ls.DanhGia);
+                    addItem(ls.MaGD, ls.TenDV, ls.DVGiatUi1, ls.DiaChi, ls.ThanhTien, ls.NgayDat, ls.ThoiGian, ls.DanhGia);
                 }
             }
         }

@@ -121,8 +121,8 @@
   <data name="8687639_ic_fluent_send_regular_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\image\8687639_ic_fluent_send_regular_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="master-bathroom-design-ideas-4129362-hero-d896a889451341dfaa59c5b2beacf02d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\image\master-bathroom-design-ideas-4129362-hero-d896a889451341dfaa59c5b2beacf02d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Montserrat_SemiBoldItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Montserrat-SemiBoldItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Montserrat_Italic_VariableFont_wght" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Montserrat-Italic-VariableFont_wght.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -145,11 +145,17 @@
   <data name="Montserrat_Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Montserrat-Bold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="dang-cong-viec1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\dang-cong-viec.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="211660_email_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\image\211660_email_icon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="20200522_154627_093429_nhung-loi-ich-cua-vie.max-800x800" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\image\20200522_154627_093429_nhung-loi-ich-cua-vie.max-800x800.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="master-bathroom-design-ideas-4129362-hero-d896a889451341dfaa59c5b2beacf02d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\master-bathroom-design-ideas-4129362-hero-d896a889451341dfaa59c5b2beacf02d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Montserrat_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Montserrat-Light.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -190,9 +196,6 @@
   <data name="Montserrat_ExtraLightItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Montserrat-ExtraLightItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Montserrat_SemiBoldItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Montserrat-SemiBoldItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="Montserrat_MediumItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Montserrat-MediumItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -232,6 +235,9 @@
   <data name="housekeeping" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\image\housekeeping.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Montserrat_Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Montserrat-Regular.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -247,7 +253,7 @@
   <data name="Montserrat_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Montserrat-Medium.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="dang-cong-viec1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\image\dang-cong-viec.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="8324223_ui_essential_app_avatar_profile_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\image\8324223_ui_essential_app_avatar_profile_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

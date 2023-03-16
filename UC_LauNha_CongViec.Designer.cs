@@ -69,7 +69,7 @@
             this.btn_TuyChonThem.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_TuyChonThem.FlatAppearance.BorderSize = 0;
             this.btn_TuyChonThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_TuyChonThem.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_TuyChonThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_TuyChonThem.Location = new System.Drawing.Point(503, 3);
             this.btn_TuyChonThem.Name = "btn_TuyChonThem";
             this.btn_TuyChonThem.Size = new System.Drawing.Size(122, 55);
@@ -84,7 +84,7 @@
             this.btn_NhaTam.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_NhaTam.FlatAppearance.BorderSize = 0;
             this.btn_NhaTam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_NhaTam.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_NhaTam.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_NhaTam.Location = new System.Drawing.Point(378, 3);
             this.btn_NhaTam.Name = "btn_NhaTam";
             this.btn_NhaTam.Size = new System.Drawing.Size(119, 55);
@@ -99,7 +99,7 @@
             this.btn_PhongNgu.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_PhongNgu.FlatAppearance.BorderSize = 0;
             this.btn_PhongNgu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_PhongNgu.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_PhongNgu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_PhongNgu.Location = new System.Drawing.Point(253, 3);
             this.btn_PhongNgu.Name = "btn_PhongNgu";
             this.btn_PhongNgu.Size = new System.Drawing.Size(119, 55);
@@ -114,7 +114,7 @@
             this.btn_NhaBep.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_NhaBep.FlatAppearance.BorderSize = 0;
             this.btn_NhaBep.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_NhaBep.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_NhaBep.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_NhaBep.Location = new System.Drawing.Point(128, 3);
             this.btn_NhaBep.Name = "btn_NhaBep";
             this.btn_NhaBep.Size = new System.Drawing.Size(119, 55);
@@ -129,7 +129,7 @@
             this.btn_CongViecChung.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_CongViecChung.FlatAppearance.BorderSize = 0;
             this.btn_CongViecChung.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_CongViecChung.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_CongViecChung.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_CongViecChung.Location = new System.Drawing.Point(3, 3);
             this.btn_CongViecChung.Name = "btn_CongViecChung";
             this.btn_CongViecChung.Size = new System.Drawing.Size(119, 55);
@@ -142,7 +142,7 @@
             // 
             this.panel1.Controls.Add(this.tableLayoutPanel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 90);
+            this.panel1.Location = new System.Drawing.Point(0, 78);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1046, 61);
             this.panel1.TabIndex = 1;
@@ -162,19 +162,19 @@
             // panel3
             // 
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 151);
+            this.panel3.Location = new System.Drawing.Point(0, 139);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1046, 430);
+            this.panel3.Size = new System.Drawing.Size(1046, 442);
             this.panel3.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(503, 90);
+            this.label1.Size = new System.Drawing.Size(511, 78);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tổng vệ sinh nhà cửa bao gồm\nnhững công việc gì?";
             // 

@@ -7,6 +7,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -25,6 +26,10 @@ namespace FinalProject_17521061.Forms
             dtp_ThoiGian.Format = DateTimePickerFormat.Custom;
             dtp_ThoiGian.CustomFormat = "HH:mm";
             dtp_ThoiGian.ShowUpDown = true;
+
+            dtp_Ngay.Format = DateTimePickerFormat.Custom;
+            dtp_Ngay.CustomFormat = "dd/MM/yyyy";
+            dtp_Ngay.ShowUpDown = false;
         }
 
         private void btn_DatDichVu_Click(object sender, EventArgs e)
@@ -72,7 +77,7 @@ namespace FinalProject_17521061.Forms
 
                 if (rowCount > 0)
                 {
-
+                    MessageBox.Show("Đăng ký dịch vụ thành công");
                 }
             }
             //catch (Exception ex)
@@ -87,10 +92,6 @@ namespace FinalProject_17521061.Forms
 
         private void cbb_DichVu_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbb_DichVu.SelectedIndex == 0)
-            {
-                cbb_TongVeSinh.Visible = true;
-            }
             switch (cbb_DichVu.SelectedIndex)
             {
                 case 0:
@@ -107,6 +108,7 @@ namespace FinalProject_17521061.Forms
                     cbb_TongVeSinh.Visible = false;
                     cbb_NauAn.Visible = false;
                     txt_GiatUi.Visible = true;
+                    pic_DichVu.ImageLocation = "image/GiatUi/1.jpg";
                     break;
                 default:
                     break;
@@ -119,21 +121,27 @@ namespace FinalProject_17521061.Forms
             {
                 case 0:
                     lbl_ThanhTien.Text = "450,000đ";
+                    pic_DichVu.ImageLocation = "image/TongVeSinh/100.jpg";
                     break;
                 case 1:
                     lbl_ThanhTien.Text = "600,000đ";
+                    pic_DichVu.ImageLocation = "image/TongVeSinh/100.jpg";
                     break;
                 case 2:
                     lbl_ThanhTien.Text = "675,000đ";
+                    pic_DichVu.ImageLocation = "image/TongVeSinh/200.jpg";
                     break;
                 case 3:
                     lbl_ThanhTien.Text = "900,000đ";
+                    pic_DichVu.ImageLocation = "image/TongVeSinh/200.jpg";
                     break;
                 case 4:
                     lbl_ThanhTien.Text = "1,200,000đ";
+                    pic_DichVu.ImageLocation = "image/TongVeSinh/300.jpg";
                     break;
                 case 5:
                     lbl_ThanhTien.Text = "2,640,000đ";
+                    pic_DichVu.ImageLocation = "image/TongVeSinh/300.jpg";
                     break;
                 default:
                     break;
@@ -146,44 +154,28 @@ namespace FinalProject_17521061.Forms
             {
                 case 0:
                     lbl_ThanhTien.Text = "140,000đ";
+                    pic_DichVu.ImageLocation = "image/NauAn/2-mon.jpg";
                     break;
                 case 1:
                     lbl_ThanhTien.Text = "175,000đ";
+                    pic_DichVu.ImageLocation = "image/NauAn/3-mon.jpg";
                     break;
                 case 2:
                     lbl_ThanhTien.Text = "210,000đ";
+                    pic_DichVu.ImageLocation = "image/NauAn/4-mon.jpg";
                     break;
                 case 3:
                     lbl_ThanhTien.Text = "245,000đ";
+                    pic_DichVu.ImageLocation = "image/NauAn/5-mon.jpg";
                     break;
                 default:
                     break;
             }
         }
 
-        private void btn_DiaChiMoi_Click(object sender, EventArgs e)
-        {
-            txt_DiaChi.ReadOnly = false;
-        }
-
         private void Form_ThongTinSuDung_Load(object sender, EventArgs e)
         {
-            try
-            {
-                string querry = "SELECT TK.MATK, TT.DIACHI FROM THONGTINTAIKHOAN AS TT, TAIKHOAN AS TK WHERE TT.MATT = TK.MATT AND TK.MATK = '" + GlobalProperties.maTK + "'";
-                SqlCommand cmd = new SqlCommand(querry, Classes.DBConnection.GetConnection());
-                //conn.Open();
-                SqlDataReader dt = cmd.ExecuteReader();
-
-                if (dt.Read())
-                {
-                    txt_DiaChi.Text = dt[1].ToString();
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            panel1.Location = new Point((int)((this.Width-panel1.Width)/2), (int)((this.Height-panel1.Height)/2));
         }
 
         private void txt_GiatUi_TextChanged(object sender, EventArgs e)
@@ -195,6 +187,39 @@ namespace FinalProject_17521061.Forms
             if (e.KeyCode == Keys.Enter)
             {
                 lbl_ThanhTien.Text = ((int)(20000 * float.Parse(txt_GiatUi.Text) + 30000)).ToString() + "đ";
+            }
+        }
+
+        private void chb_DiaChi_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chb_DiaChi.Checked)
+            {
+                txt_DiaChi.ReadOnly = true;
+                try
+                {
+                    string querry = "SELECT TK.MATK, TT.DIACHI FROM THONGTINTAIKHOAN AS TT, TAIKHOAN AS TK WHERE TT.MATT = TK.MATT AND TK.MATK = '" + GlobalProperties.maTK + "'";
+                    SqlCommand cmd = new SqlCommand(querry, conn);
+                    conn.Open();
+                    SqlDataReader dt = cmd.ExecuteReader();
+
+                    if (dt.Read())
+                    {
+                        txt_DiaChi.Text = dt[1].ToString();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+            else
+            {
+                txt_DiaChi.Reset();
+                txt_DiaChi.ReadOnly = false;
             }
         }
     }

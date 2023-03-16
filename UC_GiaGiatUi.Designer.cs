@@ -56,10 +56,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(19, 85);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(227, 31);
+            this.label2.Size = new System.Drawing.Size(221, 29);
             this.label2.TabIndex = 4;
             this.label2.Text = "(Giao nhận 2 chiều)";
             // 
@@ -74,20 +74,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(19, 51);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(223, 31);
+            this.label3.Size = new System.Drawing.Size(214, 29);
             this.label3.TabIndex = 2;
             this.label3.Text = "40,000 đ/Đơn hàng";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(19, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 31);
+            this.label1.Size = new System.Drawing.Size(187, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Phí vận chuyển";
             // 
@@ -113,10 +113,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(19, 61);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(20, 54);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(306, 75);
+            this.label5.Size = new System.Drawing.Size(279, 66);
             this.label5.TabIndex = 2;
             this.label5.Text = "Phụ thu 50% giá trị đơn hàng\n(Thời gian nhận quần áo tối thiểu \nlà 4h từ lúc nhận" +
     " đồ)";
@@ -124,10 +124,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(19, 10);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(259, 31);
+            this.label6.Size = new System.Drawing.Size(268, 29);
             this.label6.TabIndex = 0;
             this.label6.Text = "Phí giặt gấp trong 24h";
             // 

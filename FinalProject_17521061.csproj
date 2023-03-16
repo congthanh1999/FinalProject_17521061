@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7B7BA43-85F3-4CD5-A4A0-AADE1597C7AD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FinalProject_17521061</RootNamespace>
+    <AssemblyName>FinalProject_17521061</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=3.2.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\Winforms Framework\BunifuCrack-main (1)\BunifuCrack-main\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\..\Winforms Framework\BunifuCrack-main (1)\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
+      <HintPath>..\..\Winforms Framework\BunifuCrack-main (1)\BunifuCrack-main\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\Winforms Framework\BunifuCrack-main (1)\BunifuCrack-main\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>..\..\Winforms Framework\BunifuCrack-main (1)\BunifuCrack-main\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>..\..\Winforms Framework\BunifuCrack-main (1)\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\..\Winforms Framework\BunifuCrack-main (1)\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRating">
+      <HintPath>..\..\Winforms Framework\BunifuCrack-main (1)\BunifuCrack-main\Bunifu.UI.WinForms.BunifuRating.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSeparator">
+      <HintPath>..\..\Winforms Framework\BunifuCrack-main (1)\BunifuCrack-main\Bunifu.UI.WinForms.BunifuSeparator.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\..\Winforms Framework\BunifuCrack-main (1)\BunifuCrack-main\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuUserControl">
+      <HintPath>..\..\Winforms Framework\BunifuCrack-main (1)\BunifuCrack-main\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\..\Winforms Framework\Krypton-master\Krypton-master\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChatItem\UC_Outgoing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChatItem\UC_Outgoing.Designer.cs">
+      <DependentUpon>UC_Outgoing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChatItem\UC_Incomming.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChatItem\UC_Incomming.Designer.cs">
+      <DependentUpon>UC_Incomming.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ImageUtils.cs" />
+    <Compile Include="Classes\GlobalProperties.cs" />
+    <Compile Include="Classes\DBConnection.cs" />
+    <Compile Include="Classes\LichSuGD.cs" />
+    <Compile Include="DatabaseCore\DBSQLServerUtils.cs" />
+    <Compile Include="DatabaseCore\DBUtils.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_Chatbot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_Chatbot.Designer.cs">
+      <DependentUpon>Form_Chatbot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_DoiMatKhau.Designer.cs">
+      <DependentUpon>Form_DoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_LichSuGD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_LichSuGD.Designer.cs">
+      <DependentUpon>Form_LichSuGD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_MenuNauAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_MenuNauAn.Designer.cs">
+      <DependentUpon>Form_MenuNauAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_ThongTinTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_ThongTinTaiKhoan.Designer.cs">
+      <DependentUpon>Form_ThongTinTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_DangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_DangKy.Designer.cs">
+      <DependentUpon>Form_DangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_DangNhap.Designer.cs">
+      <DependentUpon>Form_DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_DiCho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_DiCho.Designer.cs">
+      <DependentUpon>Form_DiCho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_GiatUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_GiatUi.Designer.cs">
+      <DependentUpon>Form_GiatUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_NoiTro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_NoiTro.Designer.cs">
+      <DependentUpon>Form_NoiTro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_NauAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_NauAn.Designer.cs">
+      <DependentUpon>Form_NauAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_LauNha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_LauNha.Designer.cs">
+      <DependentUpon>Form_LauNha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_LienHe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_LienHe.Designer.cs">
+      <DependentUpon>Form_LienHe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_Main.Designer.cs">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_QuenMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_QuenMatKhau.Designer.cs">
+      <DependentUpon>Form_QuenMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_ThongTinSuDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_ThongTinSuDung.Designer.cs">
+      <DependentUpon>Form_ThongTinSuDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tabs\UC_Tab_TuyChon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tabs\UC_Tab_TuyChon.Designer.cs">
+      <DependentUpon>UC_Tab_TuyChon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\UC_Tab_NhaTam.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tabs\UC_Tab_NhaTam.Designer.cs">
+      <DependentUpon>UC_Tab_NhaTam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\UC_Tab_PhongNgu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tabs\UC_Tab_PhongNgu.Designer.cs">
+      <DependentUpon>UC_Tab_PhongNgu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\UC_Tab_NhaBep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tabs\UC_Tab_NhaBep.Designer.cs">
+      <DependentUpon>UC_Tab_NhaBep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\UC_Tab_CongViecChung.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tabs\UC_Tab_CongViecChung.Designer.cs">
+      <DependentUpon>UC_Tab_CongViecChung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Carousel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Carousel.Designer.cs">
+      <DependentUpon>UC_Carousel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ContentSlider.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ContentSlider.Designer.cs">
+      <DependentUpon>UC_ContentSlider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_GiaDiCho.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_GiaDiCho.Designer.cs">
+      <DependentUpon>UC_GiaDiCho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_GiaGiatUi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_GiaGiatUi.Designer.cs">
+      <DependentUpon>UC_GiaGiatUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_GiaNoiTro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_GiaNoiTro.Designer.cs">
+      <DependentUpon>UC_GiaNoiTro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_GiaNauAn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_GiaNauAn.Designer.cs">
+      <DependentUpon>UC_GiaNauAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_GiaLauNha.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_GiaLauNha.Designer.cs">
+      <DependentUpon>UC_GiaLauNha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_LauNha_CongViec.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_LauNha_CongViec.Designer.cs">
+      <DependentUpon>UC_LauNha_CongViec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_LauNha_QuyTrinhLamViec.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_LauNha_QuyTrinhLamViec.Designer.cs">
+      <DependentUpon>UC_LauNha_QuyTrinhLamViec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_LichSuGD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_LichSuGD.Designer.cs">
+      <DependentUpon>UC_LichSuGD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_LienHeScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_LienHeScreen.Designer.cs">
+      <DependentUpon>UC_LienHeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Utils.cs" />
+    <EmbeddedResource Include="ChatItem\UC_Outgoing.resx">
+      <DependentUpon>UC_Outgoing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChatItem\UC_Incomming.resx">
+      <DependentUpon>UC_Incomming.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Chatbot.resx">
+      <DependentUpon>Form_Chatbot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_DoiMatKhau.resx">
+      <DependentUpon>Form_DoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_LichSuGD.resx">
+      <DependentUpon>Form_LichSuGD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_MenuNauAn.resx">
+      <DependentUpon>Form_MenuNauAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_ThongTinTaiKhoan.resx">
+      <DependentUpon>Form_ThongTinTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_DangKy.resx">
+      <DependentUpon>Form_DangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_DangNhap.resx">
+      <DependentUpon>Form_DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_DiCho.resx">
+      <DependentUpon>Form_DiCho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_GiatUi.resx">
+      <DependentUpon>Form_GiatUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_NoiTro.resx">
+      <DependentUpon>Form_NoiTro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_NauAn.resx">
+      <DependentUpon>Form_NauAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_LauNha.resx">
+      <DependentUpon>Form_LauNha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_LienHe.resx">
+      <DependentUpon>Form_LienHe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Main.resx">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_QuenMatKhau.resx">
+      <DependentUpon>Form_QuenMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_ThongTinSuDung.resx">
+      <DependentUpon>Form_ThongTinSuDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Tabs\UC_Tab_TuyChon.resx">
+      <DependentUpon>UC_Tab_TuyChon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\UC_Tab_NhaTam.resx">
+      <DependentUpon>UC_Tab_NhaTam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\UC_Tab_PhongNgu.resx">
+      <DependentUpon>UC_Tab_PhongNgu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\UC_Tab_NhaBep.resx">
+      <DependentUpon>UC_Tab_NhaBep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\UC_Tab_CongViecChung.resx">
+      <DependentUpon>UC_Tab_CongViecChung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Carousel.resx">
+      <DependentUpon>UC_Carousel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ContentSlider.resx">
+      <DependentUpon>UC_ContentSlider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_GiaDiCho.resx">
+      <DependentUpon>UC_GiaDiCho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_GiaGiatUi.resx">
+      <DependentUpon>UC_GiaGiatUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_GiaNoiTro.resx">
+      <DependentUpon>UC_GiaNoiTro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_GiaNauAn.resx">
+      <DependentUpon>UC_GiaNauAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_GiaLauNha.resx">
+      <DependentUpon>UC_GiaLauNha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_LauNha_CongViec.resx">
+      <DependentUpon>UC_LauNha_CongViec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_LauNha_QuyTrinhLamViec.resx">
+      <DependentUpon>UC_LauNha_QuyTrinhLamViec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_LichSuGD.resx">
+      <DependentUpon>UC_LichSuGD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_LienHeScreen.resx">
+      <DependentUpon>UC_LienHeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\Montserrat-Black.ttf" />
+    <None Include="Resources\Montserrat-BlackItalic.ttf" />
+    <None Include="Resources\Montserrat-Bold.ttf" />
+    <None Include="Resources\Montserrat-BoldItalic.ttf" />
+    <None Include="Resources\Montserrat-ExtraBold.ttf" />
+    <None Include="Resources\Montserrat-ExtraBoldItalic.ttf" />
+    <None Include="Resources\Montserrat-ExtraLight.ttf" />
+    <None Include="Resources\Montserrat-ExtraLightItalic.ttf" />
+    <None Include="Resources\Montserrat-Italic-VariableFont_wght.ttf" />
+    <None Include="Resources\Montserrat-Italic.ttf" />
+    <None Include="Resources\Montserrat-Light.ttf" />
+    <None Include="Resources\Montserrat-LightItalic.ttf" />
+    <None Include="Resources\Montserrat-Medium.ttf" />
+    <None Include="Resources\Montserrat-MediumItalic.ttf" />
+    <None Include="Resources\Montserrat-Regular.ttf" />
+    <None Include="Resources\Montserrat-SemiBold.ttf" />
+    <None Include="Resources\Montserrat-SemiBoldItalic.ttf" />
+    <None Include="Resources\Montserrat-Thin.ttf" />
+    <None Include="Resources\Montserrat-ThinItalic.ttf" />
+    <None Include="Resources\Montserrat-VariableFont_wght.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\housekeeping.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\211689_left_arrow_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\211689_right_arrow_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\phòng-ngủ-đẹp-cho-nữ-1.jpg" />
+    <None Include="bin\Debug\image\20171012132316-ve-sinh-tu-lanh.jpg" />
+    <None Include="bin\Debug\image\dang-cong-viec.PNG" />
+    <None Include="bin\Debug\image\goi-y-cong-tac-vien.PNG" />
+    <None Include="bin\Debug\image\hoan-thanh.PNG" />
+    <None Include="bin\Debug\image\6457546_history_order_page_time_track_icon.png" />
+    <Content Include="img\5.png" />
+    <None Include="bin\Debug\image\211660_email_icon.ico" />
+    <None Include="bin\Debug\image\172517_phone_icon.ico" />
+    <None Include="bin\Debug\image\cach-lau-san-sach-se-696x372.jpg" />
+    <None Include="bin\Debug\image\m1-1629191751714293371324.jpg" />
+    <None Include="bin\Debug\image\HOW_TO_WASH_CLOTES_How_to_do_Laundry_570x310.jpg" />
+    <None Include="bin\Debug\image\download.png" />
+    <None Include="bin\Debug\image\20200522_154627_093429_nhung-loi-ich-cua-vie.max-800x800.jpg" />
+    <None Include="bin\Debug\image\nguoi-giup-viec-1.jpg" />
+    <None Include="bin\Debug\image\Kitchen-Design-retro-luxury-brass-island-bench-18-846x563.jpg" />
+    <None Include="bin\Debug\image\master-bathroom-design-ideas-4129362-hero-d896a889451341dfaa59c5b2beacf02d.jpg" />
+    <None Include="bin\Debug\image\211651_close_round_icon.png" />
+    <None Include="bin\Debug\image\8687639_ic_fluent_send_regular_icon.png" />
+    <None Include="bin\Debug\image\4104737_chatbot_customer_e-wallet_live chat_service_icon.png" />
+    <Content Include="img\1.png" />
+    <Content Include="img\2.png" />
+    <Content Include="img\3.png" />
+    <Content Include="img\4.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

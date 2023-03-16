@@ -1,0 +1,72 @@
+D:\A_Jerry\GitHub\FinalProject_17521061\bin\Debug\FinalProject_17521061.exe.config
+D:\A_Jerry\GitHub\FinalProject_17521061\bin\Debug\FinalProject_17521061.exe
+D:\A_Jerry\GitHub\FinalProject_17521061\bin\Debug\FinalProject_17521061.pdb
+D:\A_Jerry\GitHub\FinalProject_17521061\obj\Debug\FinalProject_17521061.csproj.AssemblyReference.cache
+D:\A_Jerry\GitHub\FinalProject_17521061\obj\Debug\FinalProject_17521061.csproj.SuggestedBindingRedirects.cache
+D:\A_Jerry\GitHub\FinalProject_17521061\obj\Debug\FinalProject_17521061.Properties.Resources.resources
+D:\A_Jerry\GitHub\FinalProject_17521061\obj\Debug\FinalProject_17521061.csproj.GenerateResource.cache
+D:\A_Jerry\GitHub\FinalProject_17521061\obj\Debug\FinalProject_17521061.csproj.CoreCompileInputs.cache
+D:\A_Jerry\GitHub\FinalProject_17521061\obj\Debug\FinalProject_17521061.exe
+D:\A_Jerry\GitHub\FinalProject_17521061\obj\Debug\FinalProject_17521061.pdb
+D:\A_Jerry\GitHub\FinalProject_17521061\obj\Debug\FinalProject_17521061.Form1.resources
+D:\A jerry\Github\FinalProject_17521061\bin\Debug\FinalProject_17521061.exe.config
+D:\A jerry\Github\FinalProject_17521061\bin\Debug\FinalProject_17521061.exe
+D:\A jerry\Github\FinalProject_17521061\bin\Debug\FinalProject_17521061.pdb
+D:\A jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.csproj.AssemblyReference.cache
+D:\A jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.csproj.SuggestedBindingRedirects.cache
+D:\A jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Form1.resources
+D:\A jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Properties.Resources.resources
+D:\A jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.csproj.GenerateResource.cache
+D:\A jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.csproj.CoreCompileInputs.cache
+D:\A jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.exe
+D:\A jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.pdb
+D:\A jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.UC_MainPanel.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.UC_ContentSlider.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.UC_Carousel.resources
+D:\A_jerry\Github\FinalProject_17521061\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+D:\A_jerry\Github\FinalProject_17521061\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.UC_LienHeScreen.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.csproj.CopyComplete
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_LienHe.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_Main.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_DangNhap.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_LauNha.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_DiCho.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.UC_GiaDiCho.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.UC_GiaLauNha.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_GiatUi.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.UC_GiaGiatUi.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_NauAn.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.UC_GiaNauAn.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_NoiTro.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.UC_GiaNoiTro.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Tabs.UC_Tab_TuyChon.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Tabs.UC_Tab_NhaTam.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Tabs.UC_Tab_PhongNgu.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Tabs.UC_Tab_NhaBep.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Tabs.UC_Tab_CongViecChung.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.UC_LauNha_CongViec.resources
+D:\A_jerry\Github\FinalProject_17521061\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.exe.licenses
+D:\A_jerry\Github\FinalProject_17521061\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+D:\A_jerry\Github\FinalProject_17521061\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\A_jerry\Github\FinalProject_17521061\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\A_jerry\Github\FinalProject_17521061\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\A_jerry\Github\FinalProject_17521061\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+D:\A_jerry\Github\FinalProject_17521061\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+D:\A_jerry\Github\FinalProject_17521061\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.ChatItem.UC_Outgoing.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.ChatItem.UC_Incomming.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_Chatbot.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_QuenMatKhau.resources
+D:\A_jerry\Github\FinalProject_17521061\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.UC_LauNha_QuyTrinhLamViec.resources
+D:\A_jerry\Github\FinalProject_17521061\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_DangKy.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_ThongTinSuDung.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_ThongTinTaiKhoan.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_DoiMatKhau.resources
+D:\A_jerry\Github\FinalProject_17521061\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_LichSuGD.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.UC_LichSuGD.resources
+D:\A_jerry\Github\FinalProject_17521061\obj\Debug\FinalProject_17521061.Forms.Form_MenuNauAn.resources
